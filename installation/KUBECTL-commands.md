@@ -20,7 +20,7 @@
     - kubectl delete deployment nginx-depl
   - kubectl get deployment [DEPLOYMENT-NAME] -o yaml
     - kubectl get deployment nginx-deployment -o yaml
-      - prints the config that saved in etcd 
+      - prints the config that saved in etcd
 
 # Pods
 
@@ -49,3 +49,7 @@
   - kubectl exec -it mongo-depl-5fd6b7d4b4-wbxcs -- bin/bash
 - kubectl apply -f [FILE_NAME]
 - kubectl delete -f [FILE_NAME]
+- kubectl get all
+- kubectl get secret
+- kubectl get all | grep mongodb
+- kubectl get configmap

@@ -23,3 +23,7 @@
 # minikube status
 
 - minikube status
+
+# minikube - external service
+
+- minikube service mongo-express-service -- provides an external ip address to the service
