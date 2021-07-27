@@ -37,6 +37,9 @@
 - kubectl get services
 - kubectl describe service [SERVICE-NAME]
   - kubectl describe service nginx-service
+- minikube service [SERVICE-NAME]
+  - minikube service mongo-express-service
+  - This assigns an external IP address to the service and start the application in a browser
 
 # Namespace
 
