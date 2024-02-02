@@ -45,7 +45,7 @@
 
 - kubectl get ns
 
-# Other commands
+# Other help commands 
 
 - kubctl logs [POD-NAME]
 - kubectl exec -it [POD_NAME] -- bin/bash
